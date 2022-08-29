@@ -48,7 +48,14 @@ html {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
-
+.middle {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  }
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .middle{ display: inline-block !important}
+  }
 body {
   font-family: "Muli", sans-serif;
   background-color: #ffffff;
