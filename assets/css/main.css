@@ -48,14 +48,7 @@ html {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
-.middle {
-  display: flex !important;
-  flex-direction: column;
-  justify-content: center;
-  }
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .middle{ display: inline-block !important}
-  }
+
 body {
   font-family: "Muli", sans-serif;
   background-color: #ffffff;
@@ -226,7 +219,15 @@ ul {
   -webkit-box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
           box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
 }
-
+.middle {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  }
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .middle{ display: inline-block !important}
+  }
+  
 .social-footer a i {
   line-height: 30px;
   font-size: 14px;
@@ -1911,6 +1912,13 @@ ul {
   .dark .header-left .main-menu {
     background-color: #0b0c10;
   }
+  .section {
+    padding: 0px 40px 0px 40px;
+  }
+  .home {
+    background-color: #eae9ee;
+    background-image: none !important;
+}
 }
 .progress {
   margin-top: 15px;
