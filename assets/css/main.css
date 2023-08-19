@@ -1935,5 +1935,12 @@ object-position: top center;
   background-color: #0388A6;
 }
 .hero-height{
-	height:1100px;
+height:1100px;
+}
+@media(max-width:768px){
+.hero-height{
+height:auto;
+margin-top:60px;
+margin-bottom:60px;
+}
 }
